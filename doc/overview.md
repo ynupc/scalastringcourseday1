@@ -1,5 +1,5 @@
 # 1.　概要
-<img src="../../image/day1/string_course.002.jpeg" width="500px">
+<img src="../image/string_course.002.jpeg" width="500px">
 <p>まずは、リテラルについて紹介します。 Scalaには文字や文字列に関するリテラルがたくさんあります。 文字リテラル、文字列リテラル、生文字リテラルなどです。 エスケープシーケンスやUnicodeシーケンスなどについても触れます。</p>
 
 <p>次に、Code PointやSurrogate Pairについて紹介します。 Scalaで適切に文字を扱うためには、１文字に対してChar型１つでは不十分な場合があります。 適切に文字を扱うためにはCode PointやSurrogate Pairについて学び、StringとCode Point配列への相互変換方法やStringのCode Point数を取得する方法などについて紹介します。</p>
