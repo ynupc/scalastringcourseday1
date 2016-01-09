@@ -26,8 +26,8 @@ Oracle Java 8とScala 2.11とScala Xml 1.0.5のAPIのドキュメントは次で
 <h3>コラム：IDE</h3>
 サンプルコードを作成するために、IDEとして<a href="https://www.jetbrains.com/idea/" target="_blank">IntelliJ IDEA</a>とIntelliJ IDEAのプラグインとしてScalaとSBTと.gitignoreのプラグインを使用しています。
 <h3>コラム：サンプルコードの文字コード</h3>
-サンプルコードのファイルのエンコーディングはUTF-8ですので、システムプロパティの`System.getProperty("file.encoding")`がUTF-8になるように設定しておいてください。JVM始動時に指定する必要があるため`System.setProperty("file.encoding", "UTF-8")`では設定できませんので、JVMオプションで`-Dfile.encoding=UTF-8`を渡すのがいいかと思います。
+サンプルコードのファイルの文字コードはUTF-8ですので、システムプロパティの`System.getProperty("file.encoding")`がUTF-8になるように設定する必要があります。JVM始動時に指定する必要があるため`System.setProperty("file.encoding", "UTF-8")`では設定できませんので、JVMオプションで`-Dfile.encoding=UTF-8`を渡すのがいいかと思います。
 SBTを利用する場合は、
-build.sbtファイルに```scalacOptions ++= Seq("-encoding", "UTF-8")```や```javacOptions ++= Seq("-encoding", "UTF-8")```を書くことでScalaやJavaのソースコードの文字コードをUTF-8に設定することができます。
+build.sbtファイルに```scalacOptions ++= Seq("-encoding", "UTF-8")```や```javacOptions ++= Seq("-encoding", "UTF-8")```を書くことでScalaやJavaのソースコードの文字コードをUTF-8に設定することができます。サンプルコードではbuild.sbtファイルからソースコードの文字コードを設定しています。
 SBTの設定ファイル~/.sbtconfigに```SBT_OPTS=-Dfile.encoding=UTF-8```と設定しておくこともできます。
 
