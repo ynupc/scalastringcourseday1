@@ -3,12 +3,12 @@
   "description": "",
   "language": "ja",
   "gitbook": "2.x.x",
-  "plugins": ["youtube","search_languages"],
+  "plugins": ["youtube","search-languages"],
   "pluginsConfig": {
     "search": {
       "maxIndexSize": 100000
     },
-    "search_languages": {
+    "search-languages": {
       "lang": "jp"
     }
   }
