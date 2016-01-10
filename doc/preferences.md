@@ -1,6 +1,6 @@
 # 2.　環境設定
 <h3>2.1　Java, Scala and Scala XML</h3>
-<img src="../image/string_course.003.jpeg" width="500px">
+<img src="../image/string_course.003.jpeg" width="500px">  
 開発環境としてOracle Java 8とScala 2.11を使用します。Scala Xml 1.0.5も使用します。Googleの<a href="https://github.com/google/guava" target="_blank">Guava</a>やApache <a href="https://commons.apache.org/proper/commons-lang/" target="_blank">Commons Lang</a>の<a href="https://commons.apache.org/proper/commons-lang/javadocs/api-release/org/apache/commons/lang3/StringUtils.html" target="_blank">StringUtils</a>には文字列処理に便利なメソッドが存在しますが、ここでは紹介しません。<br>
 <br>
 JavaとScalaとScala XMLのAPIについては、<a href="#コラムapi">コラム：API</a>、Scalaの命名規則など書き方のStyleについては<a href="#コラムstyle">コラム：Style</a>を参照ください。
