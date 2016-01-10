@@ -1,6 +1,6 @@
 <h1>Day 1 概要と環境設定</h1>
 <img src="image/string_course.001.jpeg" width="500px">  
-今回から「Scalaの文字列処理」についてまとめていこうと思います。 初日は、「Scalaの文字列処理」でどんな内容に触れるのかの概要とコーディングの環境設定を示します。  
+初日は、「Scalaの文字列処理」でどんな内容に触れるのかの概要とコーディングの環境設定を示します。  
 
 <h2>リポジトリ（サンプルコード）</h2>
 <a href="https://github.com/ynupc/scalastringcourseday1" target="_blank">https://github.com/ynupc/scalastringcourseday1</a>  
