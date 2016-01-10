@@ -1,7 +1,15 @@
 # 2.　環境設定
 <h3>2.1　Java, Scala and Scala XML</h3>
 <img src="../image/string_course.003.jpeg" width="500px">
-<p>本動画では、開発環境としてOracle Java 8とScala 2.11を使用します。Scala Xml 1.0.5も使用します。Googleの<a href="https://github.com/google/guava" target="_blank">Guava</a>やApache <a href="https://commons.apache.org/proper/commons-lang/" target="_blank">Commons Lang</a>の<a href="https://commons.apache.org/proper/commons-lang/javadocs/api-release/org/apache/commons/lang3/StringUtils.html" target="_blank">StringUtils</a>には文字列処理に便利なメソッドが存在しますが、本動画では紹介しません。</p>
+開発環境としてOracle Java 8とScala 2.11を使用します。Scala Xml 1.0.5も使用します。Googleの<a href="https://github.com/google/guava" target="_blank">Guava</a>やApache <a href="https://commons.apache.org/proper/commons-lang/" target="_blank">Commons Lang</a>の<a href="https://commons.apache.org/proper/commons-lang/javadocs/api-release/org/apache/commons/lang3/StringUtils.html" target="_blank">StringUtils</a>には文字列処理に便利なメソッドが存在しますが、ここでは紹介しません。<br>
+<br>
+JavaやScalaなどのAPIについては、<a href="#コラムAPI">コラム：API</a>を参照ください。JavaやScalaなどの命名規則など書き方のStyleについては<a href="#コラムStyle">コラム：Style</a>を参照ください。
+<h3>2.2　SBT, JUnit and ScalaTest</h3>
+<img src="../image/string_course.004.jpeg" width="500px">
+<br>
+外部ライブラリの依存関係管理のために<a href="http://www.scala-sbt.org/index.html" target="_blank">SBT 0.13.9</a>を使用します。サンプルコードは出力結果が確認しやすいように基本的にすべてテストコードの形式で提供します。テストコードを書くために外部ライブラリとして<a href="http://junit.org/" target="_blank">JUnit 4.12</a>と<a href="http://www.scalatest.org/" taget="_blank">ScalaTest 2.2.4</a>を使用します。
+<br>
+IDEについては<a href="#コラムIDE">コラム：IDE</a>を参照ください。サンプルコードの文字コードについては<a href="#コラムサンプルコードの文字コード">コラム：サンプルコードの文字コード</a>を参照ください。
 <h3>コラム：API</h3>
 Oracle Java 8とScala 2.11とScala Xml 1.0.5のAPIのドキュメントは次です。
 <ol>
@@ -18,11 +26,6 @@ Oracle Java 8とScala 2.11とScala Xml 1.0.5のAPIのドキュメントは次で
 <li>Code Conventions for the Java Programming Language<br><a href="http://www.oracle.com/technetwork/java/index-135089.html" target="_blank">http://www.oracle.com/technetwork/java/index-135089.html</a></li>
 <li>Scala Style Guide<br><a href="http://docs.scala-lang.org/style/" target="_blank">http://docs.scala-lang.org/style/</a>
 </ol>
-<h3>2.2　SBT, JUnit and ScalaTest</h3>
-<img src="../image/string_course.004.jpeg" width="500px">
-<br>
-外部ライブラリの依存関係管理のために<a href="http://www.scala-sbt.org/index.html" target="_blank">SBT 0.13.9</a>を使用します。サンプルコードは出力結果が確認しやすいように基本的にすべてテストコードの形式で提供します。テストコードを書くために外部ライブラリとして<a href="http://junit.org/" target="_blank">JUnit 4.12</a>と<a href="http://www.scalatest.org/" taget="_blank">ScalaTest 2.2.4</a>を使用します。
-<br>
 <h3>コラム：IDE</h3>
 サンプルコードを作成するために、IDEとして<a href="https://www.jetbrains.com/idea/" target="_blank">IntelliJ IDEA</a>とIntelliJ IDEAのプラグインとしてScalaとSBTと.gitignoreのプラグインを使用しています。
 <h3>コラム：サンプルコードの文字コード</h3>
