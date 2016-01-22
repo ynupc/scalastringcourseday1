@@ -11,13 +11,6 @@
 <h2>クイズ</h2>
 なし  
 
-<h2>目次</h2>
-<strong><a href="doc/overview.md#1概要">1.　概要</a></strong>  
-<strong><a href="doc/preferences.md#2環境設定">2.　環境設定</a></strong>  
-<strong><a href="doc/preferences.md#21java-scala-and-scala-xml">2.1　Java, Scala and Scala XML</a></strong>  
-<a href="doc/preferences.md#コラムapi">コラム：API</a>  
-<a href="doc/preferences.md#コラムstyle">コラム：Style</a>  
-<strong><a href="doc/preferences.md#22sbt-junit-and-scalatest">2.2　SBT, JUnit and ScalaTest</a></strong>  
-<a href="doc/preferences.md#コラムide">コラム：IDE</a>  
-<a href="doc/preferences.md#コラムサンプルコードの文字コード">コラム：サンプルコードの文字コード</a>  
+<h2><a href="SUMMARY.md">目次</a></h2>
+
 
