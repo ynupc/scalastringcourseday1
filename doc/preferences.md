@@ -10,7 +10,7 @@ Oracle Java 8のJDK (Java Development Kit)とScala 2.11をインストールし�
 </ul>
 インストールするためのroot権限やsudo権限がない場合は<a href="https://my.vmware.com/ja/web/vmware/downloads" target="_blank">VMWare Player</a>により仮想化した環境にインストールすることができます。
 サーバ上に環境構築したいがIDEのGUIも使いたい場合はVNC（<a href="https://www.realvnc.com/" target="_blank">RealVNC</a>など）、<a href="https://help.ubuntu.com/community/FreeNX" target="_blank">FreeNX</a>、<a href="http://www.straightrunning.com/xmingnotes/" target="_blank">Xming</a>などで画面転送する方法があります（Xmingは動作が遅いのでお勧めしません）。
-サーバとWindowsのローカルの間でファイル転送したい場合は<a href="https://winscp.net/eng/docs/lang:jp" target="_blank">WinSCP</a>や<a href="https://www.samba.org/" target="_blank">Samba</a>などがあります。
+サーバとWindowsのローカルの間でファイル転送したい場合は<a href="https://winscp.net/eng/docs/lang:jp" target="_blank">WinSCP</a>や<a href="https://www.samba.org/" target="_blank">Samba</a>などがあります。Windows上でUnixのコマンド環境を構築したい場合は<a href="https://www.cygwin.com/" target="_blank">Cygwin</a>があります。
 本コースでは、開発環境のOSは特に指定はありませんが、いろいろなOSで試したい場合は、マルチブートとVMWare Playerによる仮想化の方法があります。受講者それぞれが置かれている状況に合わせて必要なソフトを使ってScalaの環境を構築してください。<br>
 Googleの<a href="https://github.com/google/guava" target="_blank">Guava</a>やApache <a href="https://commons.apache.org/proper/commons-lang/" target="_blank">Commons Lang</a>の<a href="https://commons.apache.org/proper/commons-lang/javadocs/api-release/org/apache/commons/lang3/StringUtils.html" target="_blank">StringUtils</a>には文字列処理に便利なメソッドが存在しますが、本コースでは紹介しません。<br>
 <br>
