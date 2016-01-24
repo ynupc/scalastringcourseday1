@@ -12,6 +12,8 @@ JavaとScalaとScala XMLのAPIについては、<a href="#コラムapi">コラ�
 <br>
 IDEとIDEのプラグインについては<a href="#コラムide">コラム：IDE</a>、サンプルコードの文字コードについては<a href="#コラムサンプルコードの文字コード">コラム：サンプルコードの文字コード</a>を参照ください。
 ***
+<h3>コラム：マルチブート</h3>
+<h3>コラム：VMWare Playerによる仮想化</h3>
 <h3>コラム：API</h3>
 Oracle Java 8とScala 2.11とScala Xml 1.0.5のAPIのドキュメントは次です。
 <ol>
