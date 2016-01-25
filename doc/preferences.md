@@ -17,16 +17,18 @@ Googleの<a href="https://github.com/google/guava" target="_blank">Guava</a>やA
 JavaとScalaとScala XMLのAPIについては、<a href="#コラムapi">コラム：API</a>、Scalaの命名規則など書き方のStyleについては<a href="#コラムstyle">コラム：Style</a>を参照ください。
 ***
 <h3>2.3　SBT</h3>
+<img src="../image/string_course.004.jpeg" width="500px">
 外部ライブラリの依存関係管理のために<a href="http://www.scala-sbt.org/index.html" target="_blank">SBT 0.13.9</a>を使用します。<a href="http://www.scala-sbt.org/0.13/docs/ja/Setup.html" target="_blank">SBTをインストール</a>してください。
 ***
 <h3>2.2　JUnitとScalaTest</h3>
-<img src="../image/string_course.004.jpeg" width="500px">
+<img src="../image/string_course.005.jpeg" width="500px">
 <br>
 サンプルコードは出力結果が確認しやすいように基本的にすべてテストコードの形式で提供します。テストコードを書くために外部ライブラリとして<a href="http://junit.org/" target="_blank">JUnit 4.12</a>と<a href="http://www.scalatest.org/" taget="_blank">ScalaTest 2.2.4</a>を使用します。<br>
 <br>
 IDEとIDEのプラグインについては<a href="#コラムide">コラム：IDE</a>、サンプルコードの文字コードについては<a href="#コラムサンプルコードの文字コード">コラム：サンプルコードの文字コード</a>を参照ください。
 ***
 <h3>2.3　Scala XMLとAkka Actor</h3>
+<img src="../image/string_course.006.jpeg" width="500px">
 <a href="https://github.com/ynupc/scalastringcourseday5" target="_blank">Day 5</a>ではScalaでXMLを扱うためのライブラリ<a href="https://github.com/scala/scala-xml" target="_blank">Scala XML</a>とマルチスレッドの処理を書くためのライブラリ<a href="http://doc.akka.io/docs/akka/current/scala/actors.html" target="_blank">Akka Actor</a>も使用します。
 ***
 <h3>コラム：API</h3>
