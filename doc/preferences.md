@@ -29,7 +29,8 @@ IDEとIDEのプラグインについては<a href="#コラムide">コラム：ID
 ***
 <h3>2.3　Scala XMLとAkka Actor</h3>
 <img src="../image/string_course.006.jpeg" width="500px"><br>
-<a href="https://github.com/ynupc/scalastringcourseday5" target="_blank">Day 5</a>ではScalaでXMLを扱うためのライブラリ<a href="https://github.com/scala/scala-xml" target="_blank">Scala XML</a>とマルチスレッドの処理を書くためのライブラリ<a href="http://doc.akka.io/docs/akka/current/scala/actors.html" target="_blank">Akka Actor</a>も使用します。
+<a href="https://github.com/ynupc/scalastringcourseday3" target="_blank">Day 3</a>と
+<a href="https://github.com/ynupc/scalastringcourseday5" target="_blank">Day 5</a>ではScalaでXMLを扱うためのライブラリ<a href="https://github.com/scala/scala-xml" target="_blank">Scala XML</a>を、<a href="https://github.com/ynupc/scalastringcourseday5" target="_blank">Day 5</a>ではマルチスレッドの処理を書くためのライブラリ<a href="http://doc.akka.io/docs/akka/current/scala/actors.html" target="_blank">Akka Actor</a>も使用します。
 ***
 <h3>コラム：API</h3>
 Oracle Java 8とScala 2.11とScala Xml 1.0.5のAPIのドキュメントは次です。
