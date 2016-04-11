@@ -18,12 +18,17 @@ JavaとScalaとScala XMLのAPIについては、<a href="#コラムapi">コラ�
 ***
 <h3>2.3　SBT</h3>
 <img src="../image/string_course.004.jpeg" width="500px"><br>
-外部ライブラリの依存関係管理のために<a href="http://www.scala-sbt.org/index.html" target="_blank">SBT 0.13.9</a>を使用します。<a href="http://www.scala-sbt.org/0.13/docs/ja/Setup.html" target="_blank">SBTをインストール</a>してください。
+外部ライブラリの依存関係管理のために<a href="http://www.scala-sbt.org/index.html" target="_blank">SBT 0.13.9</a>を使用します。<a href="http://www.scala-sbt.org/0.13/docs/ja/Setup.html" target="_blank">SBTをインストール</a>してください。<br>
+<br>
+ちなみに、SBT以外にもライブラリ依存性管理ソフト兼ビルドツールとして<a href="http://gradle.org/" target="_blank">Gradle</a>、<a href="https://maven.apache.org/" target="_blank">Apache Maven</a>があります。依存性管理のみなら<a href="http://ant.apache.org/ivy/" target="_blank">Apache Ivy</a>、ビルドのみなら<a href="http://ant.apache.org/" target="_blank">Apache Ant</a>があります。
 ***
 <h3>2.2　JUnitとScalaTest</h3>
 <img src="../image/string_course.005.jpeg" width="500px">
 <br>
 サンプルコードは出力結果が確認しやすいように基本的にすべてテストコードの形式で提供します。テストコードを書くために外部ライブラリとして<a href="http://junit.org/" target="_blank">JUnit 4.12</a>と<a href="http://www.scalatest.org/" taget="_blank">ScalaTest 2.2.4</a>を使用します。<br>
+<br>
+ユニットテストのためのライブラリとしてはJUnitやScalaTestの他に<a href="https://etorreborre.github.io/specs2/" target="_blank">Specs2</a>、<a href="http://www.scalacheck.org/" target="_blank">ScalaCheck</a>、<a href="http://testng.org/doc/index.html" target="_blank">TestNG</a>などがあります。
+<br>
 <br>
 IDEとIDEのプラグインについては<a href="#コラムide">コラム：IDE</a>、サンプルコードの文字コードについては<a href="#コラムサンプルコードの文字コード">コラム：サンプルコードの文字コード</a>を参照ください。
 ***
