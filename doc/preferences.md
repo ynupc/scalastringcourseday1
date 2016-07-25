@@ -27,7 +27,17 @@ JavaとScalaとScala XMLのAPIについては、<a href="#コラムapi">コラ�
 <br>
 サンプルコードは出力結果が確認しやすいように基本的にすべてテストコードの形式で提供します。テストコードを書くために外部ライブラリとして<a href="http://junit.org/" target="_blank">JUnit 4.12</a>と<a href="http://www.scalatest.org/" taget="_blank">ScalaTest 2.2.4</a>を使用します。<br>
 <br>
-ユニットテストのためのライブラリとしてはJUnitやScalaTestの他に<a href="https://etorreborre.github.io/specs2/" target="_blank">Specs2</a>、<a href="http://www.scalacheck.org/" target="_blank">ScalaCheck</a>、<a href="http://testng.org/doc/index.html" target="_blank">TestNG</a>などがあります。
+次のサンプルコードの例のようにassertメソッドにBoolean型の引数を渡し、引数が`true`の場合はテストに通り、`false`の場合はテストに通りません。一般的なサンプルコードはソースコードと標準出力結果の対を見せますが、サンプルコードをテストコードで書くことにより標準出力結果を見るよりも明確に結果を確認することができます。特に文字列処理を扱うと見た目が似ている文字があるので標準出力結果を人間が目視で確認するよりテストコードで人間と機械の両者から見て正しいと判別できる方が望ましいと考え、サンプルコードにはテストコード形式を採用しました。もし、出力が実際は異なるのではないかと懸念される場合はテストコードを実行するだけで確認が取れるので楽に確かめられます。試しにDay 1のサンプルコード<a href="https://github.com/ynupc/scalastringcourseday1/blob/master/src/test/scala/Day1TestSuite.scala">Day1TestSuite.scala</a>を実行してみてください。
+```scala
+  @Test
+  def test(): Unit = {
+    assert(true)
+    //assert(false)
+  }
+```
+もし、サンプルコードや解説文等リポジトリ上の情報に修正が必要な場合はリポジトリにissueを立てていただけると助かります。
+<br><br>
+ところで、ユニットテストのためのライブラリとしてはJUnitやScalaTestの他に<a href="https://etorreborre.github.io/specs2/" target="_blank">Specs2</a>、<a href="http://www.scalacheck.org/" target="_blank">ScalaCheck</a>、<a href="http://testng.org/doc/index.html" target="_blank">TestNG</a>などがあります。
 <br>
 <br>
 IDEとIDEのプラグインについては<a href="#コラムide">コラム：IDE</a>、サンプルコードの文字コードについては<a href="#コラムサンプルコードの文字コード">コラム：サンプルコードの文字コード</a>を参照ください。
