@@ -37,7 +37,7 @@ JavaとScalaとScala XMLのAPIについては、<a href="#コラムapi">コラ�
 ```
 もし、サンプルコードや解説文等リポジトリ上の情報に修正が必要な場合はリポジトリにissueを立てていただけると助かります。
 <br><br>
-ところで、ユニットテストのためのライブラリとしてはJUnitやScalaTestの他に<a href="https://etorreborre.github.io/specs2/" target="_blank">Specs2</a>、<a href="http://www.scalacheck.org/" target="_blank">ScalaCheck</a>、<a href="http://testng.org/doc/index.html" target="_blank">TestNG</a>などがあります。
+ちなみに、ユニットテストのためのライブラリとしてはJUnitやScalaTestの他に<a href="https://etorreborre.github.io/specs2/" target="_blank">Specs2</a>、<a href="http://www.scalacheck.org/" target="_blank">ScalaCheck</a>、<a href="http://testng.org/doc/index.html" target="_blank">TestNG</a>などがあります。
 <br>
 <br>
 IDEとIDEのプラグインについては<a href="#コラムide">コラム：IDE</a>、サンプルコードの文字コードについては<a href="#コラムサンプルコードの文字コード">コラム：サンプルコードの文字コード</a>を参照ください。
