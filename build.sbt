@@ -2,7 +2,7 @@ name := "scala string course day 1"
 
 version := "0.0.1-SNAPSHOT"
 
-scalaVersion := "2.11.7"
+scalaVersion := "2.11.8"
 
 scalacOptions ++= Seq("-encoding", "UTF-8")
 
