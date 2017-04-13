@@ -77,8 +77,8 @@ Oracle Java 8とScala 2.11とScala Xml 1.0.5のAPIのドキュメントは次で
 
 ***
 <h3>コラム：サンプルコードの文字コード</h3>
-サンプルコードのファイルの文字コードはUTF-8ですので、システムプロパティの `System.getProperty("file.encoding")` がUTF-8になるように設定する必要があります。JVM始動時に指定する必要があるため`System.setProperty("file.encoding", "UTF-8")`では設定できませんので、JVMオプションで`-Dfile.encoding=UTF-8`を渡すことになります。
+サンプルコードのファイルの文字コードはUTF-8ですので、システムプロパティの `System.getProperty("file.encoding")` がUTF-8になるように設定する必要があります。JVM始動時に指定する必要があるため `System.setProperty("file.encoding", "UTF-8")` では設定できませんので、JVMオプションで `-Dfile.encoding=UTF-8` を渡すことになります。
 SBTを利用する場合は、
-build.sbtファイルに`scalacOptions ++= Seq("-encoding", "UTF-8")`や`javacOptions ++= Seq("-encoding", "UTF-8")`を書くことでScalaやJavaのソースコードの文字コードをUTF-8に設定することができます。サンプルコードではbuild.sbtファイルからソースコードの文字コードを設定しています。
-SBTの設定ファイル~/.sbtconfigに`SBT_OPTS=-Dfile.encoding=UTF-8`と設定しておくこともできます。
+build.sbtファイルに `scalacOptions ++= Seq("-encoding", "UTF-8")` や `javacOptions ++= Seq("-encoding", "UTF-8")` を書くことでScalaやJavaのソースコードの文字コードをUTF-8に設定することができます。サンプルコードではbuild.sbtファイルからソースコードの文字コードを設定しています。
+SBTの設定ファイル~/.sbtconfigに `SBT_OPTS=-Dfile.encoding=UTF-8` と設定しておくこともできます。
 
