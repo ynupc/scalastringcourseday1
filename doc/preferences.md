@@ -84,7 +84,7 @@ Oracle Java 8とScala 2.12とScala Xml 1.0.6のAPIのドキュメントは次で
 ***
 <h3>コラム：IDE</h3>
 
-サンプルコードを作成するために、IDEとして<a href="https://www.jetbrains.com/idea/" target="_blank">IntelliJ IDEA</a>とIntelliJ IDEAのプラグインとしてScalaとSBTと.gitignoreのプラグインを使用しています。
+サンプルコードを作成するために、IDEとして<a href="https://www.jetbrains.com/idea/" target="_blank">IntelliJ IDEA</a>とIntelliJ IDEAのプラグインとしてScalaと.gitignoreのプラグインを使用しています。プラグインのScalaにはSBTが含まれています。
 
 ***
 <h3>コラム：サンプルコードの文字コード</h3>
