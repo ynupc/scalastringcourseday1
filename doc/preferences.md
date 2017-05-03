@@ -2,8 +2,8 @@
 <h3>2.1　JavaとScala</h3>
 
 <img src="../image/string_course.003.jpeg" width="500px">  
-開発環境としてOracle Java 8とScala 2.11を使用します。Scala Xml 1.0.5も使用します。
-Oracle Java 8のJDK (Java Development Kit)とScala 2.11をインストールしてください。
+開発環境としてOracle Java 8とScala 2.12を使用します。Scala Xml 1.0.6も使用します。
+Oracle Java 8のJDK (Java Development Kit)とScala 2.12.2をインストールしてください。
 インストーラは下記からダウンロードできます。
 <ul>
   <li><a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html" target="_blank">JDK</a></li>
@@ -21,7 +21,7 @@ JavaとScalaとScala XMLのAPIについては、<a href="#コラムapi">コラ�
 <h3>2.3　SBT</h3>
 
 <img src="../image/string_course.004.jpeg" width="500px"><br>
-外部ライブラリの依存関係管理のために<a href="http://www.scala-sbt.org/index.html" target="_blank">SBT 0.13.9</a>を使用します。<a href="http://www.scala-sbt.org/0.13/docs/ja/Setup.html" target="_blank">SBTをインストール</a>してください。<br>
+外部ライブラリの依存関係管理のために<a href="http://www.scala-sbt.org/index.html" target="_blank">SBT 0.13.15</a>を使用します。<a href="http://www.scala-sbt.org/0.13/docs/ja/Setup.html" target="_blank">SBTをインストール</a>してください。<br>
 <br>
 ちなみに、SBT以外にもライブラリ依存性管理ソフト兼ビルドツールとして<a href="http://gradle.org/" target="_blank">Gradle</a>、<a href="https://maven.apache.org/" target="_blank">Apache Maven</a>があります。依存性管理のみなら<a href="http://ant.apache.org/ivy/" target="_blank">Apache Ivy</a>、ビルドのみなら<a href="http://ant.apache.org/" target="_blank">Apache Ant</a>があります。
 
@@ -30,7 +30,7 @@ JavaとScalaとScala XMLのAPIについては、<a href="#コラムapi">コラ�
 
 <img src="../image/string_course.005.jpeg" width="500px">
 <br>
-サンプルコードは出力結果が確認しやすいように基本的にすべてテストコードの形式で提供します。テストコードを書くために外部ライブラリとして<a href="http://junit.org/" target="_blank">JUnit 4.12</a>と<a href="http://www.scalatest.org/" taget="_blank">ScalaTest 2.2.4</a>を使用します。さらに、SBT上でテストするためには、JUnitやScalaTestと同時に<a href="https://github.com/sbt/junit-interface" target="_blank">JUnit interface</a>も必要です（<a href="https://github.com/ynupc/scalastringcourseday1/issues/1">JUnitのテストが実行されない #1</a>）。<br>
+サンプルコードは出力結果が確認しやすいように基本的にすべてテストコードの形式で提供します。テストコードを書くために外部ライブラリとして<a href="http://junit.org/" target="_blank">JUnit 4.12</a>と<a href="http://www.scalatest.org/" taget="_blank">ScalaTest 3.0.1</a>を使用します。さらに、SBT上でテストするためには、JUnitやScalaTestと同時に<a href="https://github.com/sbt/junit-interface" target="_blank">JUnit interface</a>も必要です（<a href="https://github.com/ynupc/scalastringcourseday1/issues/1">JUnitのテストが実行されない #1</a>）。<br>
 <br>
 次のサンプルコードの例のようにassertメソッドを使用します。assertメソッドにBoolean型の引数を渡すと、引数が`true`の場合はテストに通り、`false`の場合はテストに通りません。一般的なサンプルコードはソースコードと標準出力結果の対を見せますが、サンプルコードをテストコードで書くことにより標準出力結果を見るよりも明確に結果を確認することができます。特に文字列処理を扱う場合は、見た目が似ている文字があるので標準出力結果を人間が目視で確認するよりテストコードで人間と機械の両者から見て正しいと判別できる方が望ましいです。そのため、サンプルコードにはテストコード形式を採用しました。もし、出力が実際は異なるのではないかと懸念される場合はテストコードを実行するだけで確認が取れるので楽に確かめられます。試しにDay 1のサンプルコード<a href="https://github.com/ynupc/scalastringcourseday1/blob/master/src/test/scala/Day1TestSuite.scala">Day1TestSuite.scala</a>を実行してみてください。
 
@@ -58,11 +58,11 @@ IDEとIDEのプラグインについては<a href="#コラムide">コラム：ID
 ***
 <h3>コラム：API</h3>
 
-Oracle Java 8とScala 2.11とScala Xml 1.0.5のAPIのドキュメントは次です。
+Oracle Java 8とScala 2.12とScala Xml 1.0.6のAPIのドキュメントは次です。
 <ol>
 <li>Java(tm) Platform, Standard Edition 8のAPI仕様<br><a href="http://docs.oracle.com/javase/jp/8/api/" target="_blank">http://docs.oracle.com/javase/jp/8/api/</a>
-<li>Scala Standard Library 2.11.7 API<br><a href="http://www.scala-lang.org/api/2.11.7/" target="_blank">http://www.scala-lang.org/api/2.11.7/</a>
-<li>Scala module XML API<br><a href="http://www.scala-lang.org/api/2.11.7/scala-xml/" target="_blank">http://www.scala-lang.org/api/2.11.7/scala-xml/</a>
+<li>Scala Standard Library 2.12.2 API<br><a href="http://www.scala-lang.org/api/2.12.2/" target="_blank">http://www.scala-lang.org/api/2.12.2/</a>
+<li>Scala module XML API<br><a href="http://www.scala-lang.org/api/2.12.2/scala-xml/" target="_blank">http://www.scala-lang.org/api/2.12.2/scala-xml/</a>
 <!--<li><a href="" target="_blank"></a>-->
 </ol>
 
