@@ -1,4 +1,4 @@
-<h1>Scalaの文字列処理 - Day 1 概要と環境設定 -</h1>
+<h1>Scalaの文字列処理<br>- Day 1 概要と環境設定 -</h1>
 <img src="image/string_course.001.jpeg" width="500px">  
 初日は、「Scalaの文字列処理」でどのような内容に触れるのかの概要とプログラミングの環境設定について説明します。  
 <h2><a href="http://ynupc.github.io/course/scalastringcourse/index.html" target="_blank">学習方法</a></h2>
