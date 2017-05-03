@@ -1,7 +1,8 @@
 # 2.　環境設定
-<h3>2.1　JavaとScala</h3>
+<h3>2.1　ScalaとJDK</h3>
 
 <img src="../image/string_course.003.jpeg" width="500px">  
+
 開発環境としてOracle Java 8とScala 2.12を使用します。Scala Xml 1.0.6も使用します。
 Oracle Java 8のJDK (Java Development Kit)とScala 2.12.2をインストールしてください。
 インストーラは下記からダウンロードできます。
@@ -21,15 +22,16 @@ JavaとScalaとScala XMLのAPIについては、<a href="#コラムapi">コラ�
 <h3>2.3　SBT</h3>
 
 <img src="../image/string_course.004.jpeg" width="500px"><br>
+
 外部ライブラリの依存関係管理のために<a href="http://www.scala-sbt.org/index.html" target="_blank">SBT 0.13.15</a>を使用します。<a href="http://www.scala-sbt.org/0.13/docs/ja/Setup.html" target="_blank">SBTをインストール</a>してください。<br>
 <br>
 ちなみに、SBT以外にもライブラリ依存性管理ソフト兼ビルドツールとして<a href="http://gradle.org/" target="_blank">Gradle</a>、<a href="https://maven.apache.org/" target="_blank">Apache Maven</a>があります。依存性管理のみなら<a href="http://ant.apache.org/ivy/" target="_blank">Apache Ivy</a>、ビルドのみなら<a href="http://ant.apache.org/" target="_blank">Apache Ant</a>があります。
 
 ***
-<h3>2.2　JUnitとScalaTest</h3>
+<h3>2.2　単体テスト用ライブラリ</h3>
 
-<img src="../image/string_course.005.jpeg" width="500px">
-<br>
+<img src="../image/string_course.005.jpeg" width="500px"><br>
+
 サンプルコードは出力結果が確認しやすいように基本的にすべてテストコードの形式で提供します。テストコードを書くために外部ライブラリとして<a href="http://junit.org/" target="_blank">JUnit 4.12</a>と<a href="http://www.scalatest.org/" taget="_blank">ScalaTest 3.0.1</a>を使用します。さらに、SBT上でテストするためには、JUnitやScalaTestと同時に<a href="https://github.com/sbt/junit-interface" target="_blank">JUnit interface</a>も必要です（<a href="https://github.com/ynupc/scalastringcourseday1/issues/1">JUnitのテストが実行されない #1</a>）。<br>
 <br>
 次のサンプルコードの例のようにassertメソッドを使用します。assertメソッドにBoolean型の引数を渡すと、引数が`true`の場合はテストに通り、`false`の場合はテストに通りません。一般的なサンプルコードはソースコードと標準出力結果の対を見せますが、サンプルコードをテストコードで書くことにより標準出力結果を見るよりも明確に結果を確認することができます。特に文字列処理を扱う場合は、見た目が似ている文字があるので標準出力結果を人間が目視で確認するよりテストコードで人間と機械の両者から見て正しいと判別できる方が望ましいです。そのため、サンプルコードにはテストコード形式を採用しました。もし、出力が実際は異なるのではないかと懸念される場合はテストコードを実行するだけで確認が取れるので楽に確かめられます。試しにDay 1のサンプルコード<a href="https://github.com/ynupc/scalastringcourseday1/blob/master/src/test/scala/Day1TestSuite.scala">Day1TestSuite.scala</a>を実行してみてください。
@@ -49,11 +51,13 @@ JavaとScalaとScala XMLのAPIについては、<a href="#コラムapi">コラ�
 IDEとIDEのプラグインについては<a href="#コラムide">コラム：IDE</a>、サンプルコードの文字コードについては<a href="#コラムサンプルコードの文字コード">コラム：サンプルコードの文字コード</a>を参照ください。
 
 ***
-<h3>2.3　Scala XMLとAkka Actor</h3>
+<h3>2.3　その他のライブラリ</h3>
 
 <img src="../image/string_course.006.jpeg" width="500px"><br>
+
 <a href="https://github.com/ynupc/scalastringcourseday3" target="_blank">Day 3</a>と
-<a href="https://github.com/ynupc/scalastringcourseday5" target="_blank">Day 5</a>ではScalaでXMLを扱うためのライブラリ<a href="https://github.com/scala/scala-xml" target="_blank">Scala XML</a>を、<a href="https://github.com/ynupc/scalastringcourseday5" target="_blank">Day 5</a>ではマルチスレッドの処理を書くためのライブラリ<a href="http://doc.akka.io/docs/akka/current/scala/actors.html" target="_blank">Akka Actor</a>も使用します。
+<a href="https://github.com/ynupc/scalastringcourseday5" target="_blank">Day 5</a>ではScalaでXMLを扱うためのライブラリ<a href="https://github.com/scala/scala-xml" target="_blank">Scala XML</a>を、<a href="https://github.com/ynupc/scalastringcourseday3" target="_blank">Day 3</a>と<a href="https://github.com/ynupc/scalastringcourseday6" target="_blank">Day 6</a>と
+<a href="https://github.com/ynupc/scalastringcourseday7" target="_blank">Day 7</a>ではconfiguration parametersを扱うためのライブラリ<a href="https://github.com/iheartradio/ficus" target="_blank">Ficus</a>を、<a href="https://github.com/ynupc/scalastringcourseday5" target="_blank">Day 5</a>ではマルチスレッドの処理を書くためのライブラリ<a href="http://doc.akka.io/docs/akka/current/scala/actors.html" target="_blank">Akka Actor</a>も使用します。
 
 ***
 <h3>コラム：API</h3>
