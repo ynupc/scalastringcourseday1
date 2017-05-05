@@ -26,9 +26,9 @@
 
 自然言語処理に用いられるプログラミング言語の流行の歴史を抑えた上で、最近流行しているPythonとの比較を述べます。
 
-<h3>自然言語処理用プログラミング言語の流行</h3>
+<h3>自然言語処理に用いられるプログラミング言語の流行</h3>
 
-著者の実感では、自然言語処理用のプログラミング言語は、Shell, C, Prolog, Perl, Java, Pythonの順番に流行していると感じています。
+著者の実感では、自然言語処理に用いられるプログラミング言語は、Shell, C, Prolog, Perl, Java, Pythonの順番に流行していると感じています。
 Scalaは著者のように自然言語処理で使用している人もいますが、まだ流行していると言えるほどの状態ではありません。
 機械学習や自然言語処理を扱う<a href="http://www.scalanlp.org/" target="_blank">ScalaNLP</a>や<a href="http://factorie.cs.umass.edu/" target="_blank">FACTORIE</a>というライブラリはScalaで書かれています。
 岡山大学の竹内研究室の「述語シソーラス(動詞，形容詞，形容動詞)に基づく意味役割と述語の概念フレームを自動で付与するシステム<a href="http://www.cl.cs.okayama-u.ac.jp/study/project/asa/asa-scala/" target="_blank">ASA Scala
