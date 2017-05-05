@@ -33,7 +33,7 @@ Scalaは著者のように自然言語処理で使用している人もいます
 <li><a href="http://qiita.com/q-ikawa/items/cf1bb593185333d88d66" target="_blank">Scalaで自然言語処理：組み合わせ範疇文法(Combinatory Categorial Grammar: CCG) パーサを作りかけてみた</a>　(2017年)</li>
 </ul>
 
-<h4>Shell(1970-90年代)</h4>
+<h4>Shell（1970-90年代）</h4>
 
 自然言語処理の初期はShellコマンドを繋げてパイプラインをShellスクリプトとして作るようなプログラムでした。
 例えば、テキストファイルの日本語文字コードをiconvやnkfで変換をして、
@@ -59,13 +59,13 @@ Shellスクイプトで書かれたパイプラインに組み込む形で使用
 <h4>Prolog（1970-90年代）</h4>
 
 1972年に述語論理でプログラムするPrologが生まれます。
-1973年に自然言語を述語論理で記述する挑戦としてモンタギュー文法(cf. Richard Montague - The Proper Treatment of Quantification in Ordinary English)が生まれ、自然言語をPrologで記述できないかといったところからPrologが流行します。
+1973年に自然言語を述語論理で記述する挑戦としてモンタギュー文法(Richard Montague - The Proper Treatment of Quantification in Ordinary English)が生まれ、自然言語をPrologで記述できないかといったところからPrologが流行します。
 1982年に通商産業省（現経済産業省）が立ち上げたプロジェクト「第五世代コンピュータ」により日本でPrologを用いた研究が盛んになります。
 自然言語を述語論理で記述するというモンタギュー文法の試みは今のところうまくいっておらず、
 「第五世代コンピュータ」も1992年に終了したため、
 その後は、ほとんど使われていません。
 
-<h4>Perl(1990-2000年代)</h4>
+<h4>Perl（1990-2000年代）</h4>
 
 1987年に正規表現が書けるインタプリタ言語のPerlが生まれます。
 Perlで今まで通りにコマンドラインプログラムを作成し、Shellスクリプトに加えることもできますが、
