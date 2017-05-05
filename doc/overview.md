@@ -38,7 +38,7 @@ Scalaは著者のように自然言語処理で使用している人もいます
 <li><a href="http://qiita.com/q-ikawa/items/cf1bb593185333d88d66" target="_blank">Scalaで自然言語処理：組み合わせ範疇文法(Combinatory Categorial Grammar: CCG) パーサを作りかけてみた</a>　(2017年)</li>
 </ul>
 
-首都大学東京の小町先生の武蔵野日記の「<a href="http://d.hatena.ne.jp/mamoruk/20090327/p1" target="_blank">自然言語処理は Python がいちばん</a>」（扇情的なタイトルに意識的にしてるような？）にも最後にScalaに関する追記があり、次のように考察されている。
+首都大学東京の小町先生の武蔵野日記の「<a href="http://d.hatena.ne.jp/mamoruk/20090327/p1" target="_blank">自然言語処理は Python がいちばん</a>」（扇情的なタイトルに意識的にしているような？）にも最後にScalaに関する追記があり、次のように考察されている。
 
 > 基本的に状況は変わっていないが、Scala や Clojure などの Java VM 系の言語で書かれた自然言語処理ライブラリ・ツールが増えてきた、というのが4年前と比べて変わってきたところだろうか。(個人的には、これらの言語がスタンダードになることについては懐疑的であるが、研究で使うには便利である。)
 
