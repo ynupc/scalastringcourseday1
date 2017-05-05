@@ -21,7 +21,11 @@
 
 <p>最後にオプションというScalaにある<a href="http://docs.oracle.com/javase/jp/8/api/java/lang/NullPointerException.html" target="_blank">NullPointerException</a>を排除するために役に立つ機構について紹介します。（Day 7）</p>
 
+***
 <h2>なぜScalaか</h2>
+
+自然言語処理に用いられるプログラミング言語の流行の歴史を抑えた上で、最近流行しているPythonとの比較を述べます。
+
 <h3>自然言語処理用プログラミング言語の流行</h3>
 
 著者の実感では、自然言語処理用のプログラミング言語は、Shell, C, Prolog, Perl, Java, Pythonの順番に流行していると感じています。
