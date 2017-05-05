@@ -26,7 +26,8 @@
 
 著者の実感では、自然言語処理用のプログラミング言語は、Shell, C, Prolog, Perl, Java, Pythonの順番に流行していると感じています。
 Scalaは著者のように自然言語処理で使用している人もいますが、まだ流行していると言えるほどの状態ではありません。
-岡山大学の竹内研究室の「<a href="http://www.cl.cs.okayama-u.ac.jp/study/project/asa/" target="_blank">意味役割付与システム (ASA)</a>」はScalaで書かれていますし、横浜国立大学の森研究室の世界史の論述問題を解く質問応答システム<a href="https://github.com/ktr-skmt/FelisCatusZero-multilingual/" target="_blank">FelisCatus Zero</a>もScalaで書かれています。東北大学の乾研究室では自然言語処理のための<a href="http://www.cl.ecei.tohoku.ac.jp/index.php?Learning%20Scala" target="_blank">Scala勉強会</a>を行なっています。他にも次のような取り組みもあるため、Scalaが自然言語処理に全く使われていないという状況でもないというのが現状です。
+岡山大学の竹内研究室の「述語シソーラス(動詞，形容詞，形容動詞)に基づく意味役割と述語の概念フレームを自動で付与するシステム<a href="http://www.cl.cs.okayama-u.ac.jp/study/project/asa/asa-scala/" target="_blank">ASA Scala
+</a>」はScalaで書かれていますし、横浜国立大学の森研究室の世界史の論述問題を解く質問応答システム<a href="https://github.com/ktr-skmt/FelisCatusZero-multilingual/" target="_blank">FelisCatus Zero</a>もScalaで書かれています。東北大学の乾研究室では自然言語処理のための<a href="http://www.cl.ecei.tohoku.ac.jp/index.php?Learning%20Scala" target="_blank">Scala勉強会</a>を行なっています。他にも次のような取り組みもあるため、Scalaが自然言語処理に全く使われていないという状況でもないというのが現状です。
 <ul>
 <li><a href="https://www.youtube.com/watch?v=3qounjyop94" target="_blank">Scalaによる自然言語処理 - #DSIRNLP 4</a> (2013年)</li>
 <li><a href="https://github.com/Yuichiroh/nlp100" target="_blank">言語処理100本ノック 2015 in Scala</a> (2015年)</li>
